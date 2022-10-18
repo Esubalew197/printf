@@ -50,3 +50,24 @@ You don’t have to handle the length modifiers
 space
 #
 
+8- Handle the following length modifiers for non-custom conversion specifiers:
+l
+h
+Conversion specitiers to handle: d, i, u, o, x, X
+
+9- Handle the field width for non-custom conversion specifiers.
+
+10- Handle the precision for non-custom conversion specifiers.
+
+11-Handle the 0 flag character for non-custom conversion specifiers.
+
+12- Handle the - flag character for non-custom conversion specifiers.
+
+
+13- Handle the following custom conversion specifier:
+r: prints the reversed string
+
+14- Handle the following custom conversion specifier:
+R: prints the rot13ed string
+
+15- All the above options work well together.
